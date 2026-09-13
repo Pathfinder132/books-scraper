@@ -19,6 +19,7 @@ A Python-based web scraping tool that uses Playwright to collect book data acros
 
 ## Project Structure
 
+```
 books_scraper/
 ├── src/
 │   └── books_scraper/
@@ -30,6 +31,7 @@ books_scraper/
 ├── pyproject.toml
 ├── README.md
 └── uv.lock
+```
 
 ### File Descriptions
 
@@ -65,6 +67,7 @@ This generates:
 
 ## Data Pipeline Flow
 
+```
 Website (HTML/DOM)
        ↓
 Playwright (Automation & Scraping)
@@ -78,6 +81,7 @@ Data Cleaning & Type Conversion
 Validation (Assertions)
        ↓
 CSV & Excel Export
+```
 
 ## Technologies Used
 
