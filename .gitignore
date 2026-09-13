@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Output Data (Scraped files)
+*.csv
+*.xlsx
+*.json
+
+# IDE & OS Settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Package Manager Lock / Cache Files (if non-reproducible)
+.pytest_cache/
+.python-version
+
+/practice/
+
